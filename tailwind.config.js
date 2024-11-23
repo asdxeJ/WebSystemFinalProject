@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-bg': "url('./src/assets/HomePage/bg.jpg')",
+      },
+      fontFamily: {
+        inknut: ['"Inknut Antiqua"', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
