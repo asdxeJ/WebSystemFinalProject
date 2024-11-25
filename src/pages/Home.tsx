@@ -15,7 +15,7 @@ interface Props {}
 const Home = (props: Props) => {
   return (
     <>
-      <div className="bg-home-bg bg-cover min-h-screen">
+      <div className="bg-home-bg bg-cover min-h-[695px]">
         <Navbar />
         <div>
           <img className="h-22 w-16 ml-5" src={logo} />

@@ -1,9 +1,16 @@
-import React from "react";
+import Navbar from "../components/Navbar";
 
-type Props = {};
+interface Props {}
 
 const About = (props: Props) => {
-  return <div>About</div>;
+  return (
+    <>
+      <div className="bg-home-bg h-screen bg-cover">
+        <Navbar />
+        <div className="text-white">About us page</div>
+      </div>
+    </>
+  );
 };
 
 export default About;

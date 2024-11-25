@@ -1,9 +1,15 @@
-import React from "react";
+import Navbar from "../components/Navbar";
 
-type Props = {};
+interface Props {}
 
 const Menu = (props: Props) => {
-  return <div>Menu</div>;
+  return (
+    <>
+      <div className="bg-home-bg h-screen bg-cover">
+        <Navbar />
+      </div>
+    </>
+  );
 };
 
 export default Menu;

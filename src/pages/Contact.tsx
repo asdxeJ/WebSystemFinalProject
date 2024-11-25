@@ -1,9 +1,16 @@
-import React from "react";
+import Navbar from "../components/Navbar";
 
-type Props = {};
+interface Props {}
 
 const Contact = (props: Props) => {
-  return <div>Contact</div>;
+  return (
+    <>
+      <div className="bg-home-bg h-screen bg-cover">
+        <Navbar />
+        <div className="text-white">Contact page</div>
+      </div>
+    </>
+  );
 };
 
 export default Contact;
